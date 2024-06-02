@@ -1,0 +1,70 @@
+.mainpage{
+    background-image:linear-gradient(to right,rgb(4, 114, 114),rgb(225, 7, 229));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    padding:10px;
+    font-size:30px;
+    letter-spacing:10px;
+}
+.backim{
+    background-image:url("https://cdn.pixabay.com/photo/2024/05/20/11/11/ai-generated-8774861_1280.jpg") ;
+    width:100%;
+    height:100%;
+    flex-wrap:wrap;
+}
+.mainimg2,.mainimg1{
+    width:100%;
+    height:auto;
+    border-radius:10px;
+    min-width:300px;
+}
+.maindiv1,.maindiv2{
+    width:30%;
+    height:500px;
+    display:inline-block;
+    padding-bottom:0px;
+    
+    margin-left:10%;
+    margin-right:10%;
+    position:relative;
+    border-radius:10px;
+    min-width:300px;
+}
+.mainsubdiv1,.mainsubdiv2{
+    width:100%;
+    height:100%;
+    position:absolute;
+    opacity:0;
+    transition:2s ease;
+    top:0;
+
+  
+    bottom:0;
+    transform:translatey(-50%,-50%);
+}
+.maindiv1:hover .mainsubdiv1,.maindiv2:hover .mainsubdiv2{
+    opacity:1;
+}
+.maindiv2:hover .mainimg2,.maindiv1:hover .mainimg1{
+    opacity:0.3;
+}
+.mainbutton1,.mainbutton2{
+width:40%;
+font-size:25px;
+height:auto;
+margin-left:35%;
+margin-right:35%;
+border-radius:10px;
+border:none;
+color:purple;
+background-color:white;
+margin-top:150px;
+}
+.logo{
+    width:70px;
+    height:75px;
+}
+.mainbutton1:hover,.mainbutton2:hover{
+    background-image:linear-gradient(to right,rgb(11, 226, 226),rgb(101, 13, 151),rgb(237, 24, 152));
+    color:white;
+}

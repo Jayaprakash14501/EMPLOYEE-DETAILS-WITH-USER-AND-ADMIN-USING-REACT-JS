@@ -1,0 +1,74 @@
+{
+  "login": [
+    {
+      "id": 1,
+      "firstname": "jaya prakash",
+      "phone": "9843129101",
+      "mail": "prakash@gmail.com",
+      "password": "Prakash@1",
+      "confirm": "Prakash@1",
+      "photo": "C:\\fakepath\\a2.png",
+      "description": "sdfsdjhfsjdf"
+    },
+    {
+      "id": 2,
+      "firstname": "santhosh",
+      "phone": "7777777777",
+      "mail": "santhosh@gmail.com",
+      "password": "As@1",
+      "confirm": "As@1",
+      "photo": "",
+      "description": ""
+    },
+    {
+      "id": 3,
+      "firstname": "anas ahamed",
+      "phone": "6374455242",
+      "mail": "anas@gmail.com",
+      "password": "Pa@1",
+      "confirm": "Pa@1",
+      "photo": "",
+      "description": ""
+    },
+    {
+      "id": 4,
+      "firstname": "ashik",
+      "phone": "9696696969",
+      "mail": "ashik@gmail.com",
+      "password": "Ha@1",
+      "confirm": "Ha@1",
+      "photo": "",
+      "description": ""
+    },
+    {
+      "id": 5,
+      "firstname": "jaya",
+      "phone": "9876543310",
+      "mail": "mdsjkcfs@gmail.com",
+      "password": "Sa@1",
+      "confirm": "Sa@1",
+      "photo": "",
+      "description": ""
+    },
+    {
+      "id": 6,
+      "firstname": "prakash",
+      "phone": "6666666666",
+      "mail": "prakash@gmail.com",
+      "password": "Prakash@1",
+      "confirm": "Prakash@1",
+      "photo": "",
+      "description": ""
+    },
+    {
+      "id": 7,
+      "firstname": "karthik",
+      "phone": "8787878787",
+      "mail": "aslkjd@gmail.com",
+      "password": "Sa@1",
+      "confirm": "Sa@1",
+      "photo": "",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+.main
+{
+    background-image:url("https://cdn.pixabay.com/photo/2024/05/20/11/11/ai-generated-8774861_1280.jpg");
+    height:100%;
+    padding:80px;
+}
+.main1
+{
+    background-image:url("https://cdn.pixabay.com/photo/2024/05/20/11/11/ai-generated-8774861_1280.jpg");
+    height:100%;
+    padding:10px;
+}
+
+h2:hover{
+    
+    background-color:rgb(11, 165, 176);
+
+}
+.loginbutton:hover{
+background-image:linear-gradient(to right,rgb(175, 161, 8),rgb(194, 70, 8),rgb(203, 15, 15));
+color:white;
+}
+
+.submain
+{
+    position:relative;
+    text-align:center;
+    animation-name:movediv;
+    animation-duration:4s;
+}
+@keyframes movediv{
+    0%{
+        left:-1000px;top:0px;
+    }
+    100%{
+        left:0px;top:0px;
+    }
+}
+h2{
+    display:inline-block;
+    font-size:20px;
+    padding:10px;
+    margin:10px;
+    border-radius:50%;
+    background-color:white;
+    
+
+    
+}
+h1{
+    font-size:50px;
+    letter-spacing:5px;
+    
+    background-image:linear-gradient(to right,rgb(2, 74, 74),rgb(69, 2, 79));
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.loginbutton{
+    color:purple;
+    background-color:rgb(246, 246, 249);
+    border-radius:10px;
+    border:none;
+    width:40%;
+    min-width:300px;
+    height:40px;
+}
+.comp{
+    color:purple;
+    font-size:20px;
+}
+
+.box
+{
+    width:40%;
+    min-width:300px;
+    border-top:none;
+    border-right:none;
+    border-left:none;
+    border-bottom:2px solid white;
+    background-color:rgba(245, 222, 179, 0);
+}
+.box:focus{
+    outline: 0px;
+    border-bottom:3px solid rgb(168, 11, 212);
+   
+   
+}
